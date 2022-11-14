@@ -5,6 +5,6 @@ services:
         ports:
             - 8080:8080
         volumes:
-            - /volume1/docker/microbin:/app/pasta_data
+            - /volume1/docker/microbin/pasta_data:/app/pasta_data
         restart: unless-stopped
         image: danielszabo99/microbin
