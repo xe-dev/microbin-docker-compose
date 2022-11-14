@@ -1,0 +1,10 @@
+version: '3.3'
+services:
+    microbin:
+        container_name: microbin
+        ports:
+            - 8080:8080
+        volumes:
+            - /volume1/docker/microbin:/app/pasta_data
+        restart: unless-stopped
+        image: danielszabo99/microbin
