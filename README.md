@@ -5,4 +5,4 @@ Docker Compose file to deploy szabodanika's MicroBin (https://github.com/szaboda
 Adjust volumes and port configuration at your convenience.
 This is my first docker-compose, so pleae, be kind ;)
 
-
+Please note: This is an extremely simple deployment.
